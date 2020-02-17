@@ -1,0 +1,21 @@
+.menu{
+    background-color: $red;
+    position: fixed;
+    width: 100%;
+    height: 6vh;
+    &_logo{
+        width: rem(80);
+    }
+    &_list{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-right: rem(90);
+        &-item{
+            color: $white;
+            font-family: $roboto;
+            font-weight: 530;
+            padding: rem(10);
+        }
+    }
+}

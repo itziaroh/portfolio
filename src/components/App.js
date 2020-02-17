@@ -1,10 +1,12 @@
 import React from 'react';
-import '../styles/App.css';
+import Navbar from './Navbar';
+import About from './About';
 
 function App() {
   return (
     <div className="App">
-      HOLA
+      <Navbar />
+      <About />
     </div>
   );
 }
