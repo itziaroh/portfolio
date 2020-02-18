@@ -1,9 +1,33 @@
 .about{
-    height: 80vh;
-    padding-top: rem(60);
+    height: 50vh;
+    padding-top: rem(20);
+    margin: 0 rem(40);
+    @include for-tablet-up{
+        margin: 0 rem(85); 
+    }
+    @include for-desktop-up{
+        margin: 0 rem(130); 
+    }
+
     &_hello{
-        color: $black;
-        font-size: rem(50);
-        font-family: $roboto;
+        color: $red;
+        font-size: rem(35);
+        @include for-tablet-up{
+            font-size: rem(50); 
+        }
+        @include for-desktop-up{
+            font-size: rem(70); 
+        }
+    }
+    &_name{
+        color: $dark-grey;
+        font-size: rem(20);
+        font-weight: 600;
+        @include for-tablet-up{
+            font-size: rem(35); 
+        }
+        @include for-desktop-up{
+            font-size: rem(50); 
+        }
     }
 }
