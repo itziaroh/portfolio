@@ -1,4 +1,9 @@
 .about{
-    background-color: goldenrod;
-    color: black;
+    height: 80vh;
+    padding-top: rem(60);
+    &_hello{
+        color: $black;
+        font-size: rem(50);
+        font-family: $roboto;
+    }
 }
