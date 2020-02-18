@@ -1,13 +1,13 @@
 .about{
     height: 35vh;
     padding-top: rem(20);
-    margin: 0 rem(40);
+    margin: rem(50) rem(40) 0 rem(40);
     @include for-tablet-up{
-        margin: 0 rem(85); 
+        margin: rem(60) rem(85) 0 rem(85); 
         height: 45vh;
     }
     @include for-desktop-up{
-        margin: 0 rem(130); 
+        margin: rem(70) rem(130) 0 rem(130); 
         height: 55vh;
     }
 
@@ -25,11 +25,14 @@
         color: $dark-grey;
         font-size: rem(20);
         font-weight: 600;
+        line-height: rem(25);
         @include for-tablet-up{
             font-size: rem(35); 
+            line-height: rem(45);
         }
         @include for-desktop-up{
             font-size: rem(50); 
+            line-height: rem(57);
         }
     }
 }

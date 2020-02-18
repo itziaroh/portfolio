@@ -5,6 +5,8 @@
     padding-left: 1em;
     padding-right: 3em;
     background-color: $red;
+    position: fixed;
+    top: rem(0);
 }
 
 .menu{
@@ -14,7 +16,20 @@
     justify-content: center;
     align-items: center;
     @include for-tablet-up{
-        justify-content: flex-end; 
+        display: flex;
+        justify-content: space-between; 
+    }
+
+    &_name{
+        color: $white;
+        font-family: $sriracha;
+        font-size: rem(14);
+        margin-left: rem(5);
+        text-align: center;
+        @include for-tablet-up{
+            font-size: rem(18);
+            margin-left: rem(20);
+        }
     }
 
     &_list{
