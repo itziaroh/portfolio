@@ -1,0 +1,54 @@
+{
+    "projects": [
+        {
+            "url": "https://github.com/itziaroh/modulo-3-evaluacion-final-itziaroh",
+            "img": "./img/project-characters.png",
+            "project": "Rick & Morty Characters Finder",
+            "description": "Rick & Morty Characters Finder",
+            "tech1": "React",
+            "tech2": "SCSS",
+            "tech3": "JavaScript",
+            "tech4": "Git"
+        },
+        {
+            "url": "https://github.com/itziaroh/project-promo-h-module-2-team-3-afternoon-jungle-wanderers",
+            "img": "./img/project-cards-js.png",
+            "project": "Awesome Profile Cards",
+            "description": "Awesome Profile Cards",
+            "tech1": "JavaScript",
+            "tech2": "SCSS",
+            "tech3": "HTML5",
+            "tech4": "Git"
+        },
+        {
+            "url": "https://github.com/itziaroh/project-promo-h-module-3-team-4-afternoon-",
+            "img": "./img/project-cards-react.png",
+            "project": "Migración Awesome Profile Cards",
+            "description": "Migración Awesome Profile Cards",
+            "tech1": "React",
+            "tech2": "SCSS",
+            "tech3": "JavaScript",
+            "tech4": "Git"
+        },
+        {
+            "url": "https://github.com/Adalab/project-promo-h-module-1-team-4-afternoon-eniac-women",
+            "img": "./img/project-eniac.png",
+            "project": "Página de contacto",
+            "description": "Página de contacto",
+            "tech1": "HTML5",
+            "tech2": "SCSS",
+            "tech3": "Grid",
+            "tech4": "Flexbox"
+        },
+        {
+            "url": "https://github.com/itziaroh/evaluacion-final-modulo-1-itziaroh",
+            "img": "./img/project-layout.png",
+            "project": "Anonymous Proxy",
+            "description": "Anonymous Proxy Layout",
+            "tech1": "HTML5",
+            "tech2": "SCSS",
+            "tech3": "Responsive",
+            "tech4": "Flexbox"
+        }
+    ]
+}

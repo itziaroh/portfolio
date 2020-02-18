@@ -1,12 +1,14 @@
 .about{
-    height: 50vh;
+    height: 35vh;
     padding-top: rem(20);
     margin: 0 rem(40);
     @include for-tablet-up{
         margin: 0 rem(85); 
+        height: 45vh;
     }
     @include for-desktop-up{
         margin: 0 rem(130); 
+        height: 55vh;
     }
 
     &_hello{
