@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard';
 
 const Projects = () => {
     return (
-        <section className="projects" id="projects">
+        <section className="projects" >
             <h2 className="projects_title">MIS PROYECTOS</h2>
             <ul className="projects_list">
                 {data.projects.map((project, index) => {
@@ -15,6 +15,7 @@ const Projects = () => {
                     )
                 })}
             </ul>
+            <div id="skills"></div>
         </section>
     )
 }

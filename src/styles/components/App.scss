@@ -21,6 +21,7 @@ h2{
     @include for-tablet-up{
         font-size: rem(30); 
         margin-bottom: rem(32);
+        margin-top: rem(50);
     }
     @include for-desktop-up{
         font-size: rem(35); 
