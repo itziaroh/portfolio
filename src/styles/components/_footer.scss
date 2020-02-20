@@ -17,6 +17,7 @@
             a{
                 text-decoration: underline;
             }
+            font-size: rem(12);
             color: $white;
             margin-left: rem(5);
             @include for-tablet-up{

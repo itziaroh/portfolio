@@ -6,27 +6,28 @@ const Skills = () => {
             <section className="skills_tech">
                 <h2 className="skills_tech-title">SKILLS</h2>
                 <div className="skills_tech-container">
-                    <p className="skills_text">► JavaScript (ES6)<br></br>
-                        ► HTML5<br></br>
-                        ► SASS<br></br>
-                        ► Grid<br></br>
-                        ► Responsive Design<br></br>
-                        ► Gulp<br></br>
-                        ► Trello<br></br>
-                        ► Terminal<br></br>
-                        ► Resolución de problemas<br></br>
-                    </p>
-                    <p className="skills_text">
-                        ► React.js<br></br>
-                        ► CSS3<br></br>
-                        ► Flexbox<br></br>
-                        ► Bootstrap<br></br>
-                        ► Git<br></br>
-                        ► Agile & Scrum<br></br>
-                        ► Github<br></br>
-                        ► Trabajo en equipo<br></br>
-                        ► Organizada<br></br>
-                    </p>
+                    <ul className="skills_text">
+                        <li>► JavaScript (ES6)</li>
+                        <li>► HTML5</li>
+                        <li>► SASS</li>
+                        <li>► Grid</li>
+                        <li>► Responsive Design</li>
+                        <li>► Gulp</li>
+                        <li>► Trello</li>
+                        <li>► Terminal</li>
+                        <li>► Resolución de problemas</li>
+                    </ul>
+                    <ul className="skills_text">
+                        <li>► React.js</li>
+                        <li>► CSS3</li>
+                        <li>► Flexbox</li>
+                        <li>► Bootstrap</li>
+                        <li>► Git</li>
+                        <li>► Agile & Scrum</li>
+                        <li>► Github</li>
+                        <li>► Trabajo en equipo</li>
+                        <li>► Organizada</li>
+                    </ul>
                 </div>
             </section>
             <section className="skills_education">
@@ -34,13 +35,14 @@ const Skills = () => {
                 <section className="education_adalab">
                     <h4 className="education_title">Front-End Developer</h4>
                     <p className="education_date">@Adalab, 2019-2020</p>
-                    <p className="education_description"> - Maquetación con HTML5, CSS3, Flexbox, CSS Grid, diseño responsive, SASS, animaciones y maquetación por componentes.<br></br>
-                        - Conocimientos de Vanilla JavaScript (ES6) y servicios web de terceros (APIs).<br></br>
-                        - Creación de SPAs sencillas con React.<br></br>
-                        - Control de versiones con Git.<br></br>
-                        - Manejo de herramientas como Trello, Slack, Github, Terminal, Gulp, VS Code.<br></br>
-                        - Experiencia en el desarrollo de proyectos usando Agile y SCRUM.
-                    </p>
+                    <ul className="education_description">
+                        <li>- Maquetación con HTML5, CSS3, Flexbox, CSS Grid, diseño responsive, SASS, animaciones y maquetación por componentes.</li>
+                        <li>- Conocimientos de Vanilla JavaScript (ES6) y servicios web de terceros (APIs).</li>
+                        <li>- Creación de SPAs sencillas con React.</li>
+                        <li>- Control de versiones con Git.</li>
+                        <li>- Manejo de herramientas como Trello, Slack, Github, Terminal, Gulp, VS Code.</li>
+                        <li>- Experiencia en el desarrollo de proyectos usando Agile y SCRUM.</li>
+                    </ul>
                 </section>
                 <section className="education_urjc">
                     <h4 className="education_title">Grado en Administración y Dirección de Empresas</h4>
