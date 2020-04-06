@@ -8,10 +8,12 @@ const Skills = () => {
                 <div className="skills_tech-container">
                     <ul className="skills_text">
                         <li>► JavaScript (ES6)</li>
+                        <li>► React Hooks</li>
                         <li>► HTML5</li>
                         <li>► SASS</li>
                         <li>► Grid</li>
                         <li>► Responsive Design</li>
+                        <li>► Consumo API Rest</li>
                         <li>► Gulp</li>
                         <li>► Trello</li>
                         <li>► Terminal</li>
@@ -22,7 +24,9 @@ const Skills = () => {
                         <li>► CSS3</li>
                         <li>► Flexbox</li>
                         <li>► Bootstrap</li>
+                        <li>► Firebase</li>
                         <li>► Git</li>
+                        <li>► NPM</li>
                         <li>► Agile & Scrum</li>
                         <li>► Github</li>
                         <li>► Trabajo en equipo</li>
@@ -32,6 +36,23 @@ const Skills = () => {
             </section>
             <section className="skills_education">
                 <h2 className="skills_education-title">FORMACIÓN</h2>
+                <section className="education_adalab">
+                    <h4 className="education_title">Complete React Developer</h4>
+                    <p className="education_date">@Zero to Mastery Academy, 2020 (Cursando)</p>
+                    <ul className="education_description">
+                        <li>- React Basics & Hooks</li>
+                        <li>- React Router</li>
+                        <li>- Redux, Redux Saga & Redux asíncrono</li>
+                        <li>- Context API</li>
+                        <li>- React Suspense & React Lazy</li>
+                        <li>- Firebase</li>
+                        <li>- Stripe API</li>
+                        <li>- GraphQL & Apollo</li>
+                        <li>- React Performance & React Design Patterns</li>
+                        <li>- Testing con Jest, Enzyme & Snapshot</li>
+                        <li>- Persistance & Session Storage</li>
+                    </ul>
+                </section>
                 <section className="education_adalab">
                     <h4 className="education_title">Front-End Developer</h4>
                     <p className="education_date">@Adalab, 2019-2020</p>

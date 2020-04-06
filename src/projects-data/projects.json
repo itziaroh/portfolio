@@ -1,6 +1,16 @@
 {
     "projects": [
         {
+            "url": "https://github.com/itziaroh/trivia-questions",
+            "img": "./img/project-trivia.png",
+            "project": "Trivia Questions",
+            "description": "Trivia Questions",
+            "tech1": "React",
+            "tech2": "Hooks",
+            "tech3": "JavaScript",
+            "tech4": "Material UI"
+        },
+        {
             "url": "https://github.com/itziaroh/modulo-3-evaluacion-final-itziaroh",
             "img": "./img/project-characters.png",
             "project": "Rick & Morty Characters Finder",
