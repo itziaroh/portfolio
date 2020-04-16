@@ -4,7 +4,7 @@ const Skills = () => {
     return (
         <div className="skills_wrapper" >
             <section className="skills_tech">
-                <h2 className="skills_tech-title">SKILLS</h2>
+                <h2 className="skills_tech-title">HARD SKILLS</h2>
                 <div className="skills_tech-container">
                     <ul className="skills_text">
                         <li>► JavaScript (ES6)</li>
@@ -14,13 +14,15 @@ const Skills = () => {
                         <li>► Grid</li>
                         <li>► Responsive Design</li>
                         <li>► Consumo API Rest</li>
+                        <li>► Stripe API</li>
                         <li>► Gulp</li>
                         <li>► Trello</li>
                         <li>► Terminal</li>
-                        <li>► Resolución de problemas</li>
                     </ul>
                     <ul className="skills_text">
                         <li>► React.js</li>
+                        <li>► Redux</li>
+                        <li>► React Router</li>
                         <li>► CSS3</li>
                         <li>► Flexbox</li>
                         <li>► Bootstrap</li>
@@ -29,8 +31,19 @@ const Skills = () => {
                         <li>► NPM</li>
                         <li>► Agile & Scrum</li>
                         <li>► Github</li>
+                    </ul>
+                </div>
+                <h2 className="skills_tech-title">SOFT SKILLS</h2>
+                <div className="skills_tech-container">
+                    <ul className="skills_text">
                         <li>► Trabajo en equipo</li>
+                        <li>► Resolución de problemas</li>
+                        <li>► Adaptabilidad</li>
+                    </ul>
+                    <ul className="skills_text">
+                        <li>► Apredizaje rápido</li>
                         <li>► Organizada</li>
+                        <li>► Responsable</li>
                     </ul>
                 </div>
             </section>

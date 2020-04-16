@@ -1,6 +1,16 @@
 {
     "projects": [
         {
+            "url": "https://github.com/itziaroh/ecommerce-web",
+            "img": "./img/project-ecommerce.png",
+            "project": "E-commerce Web",
+            "description": "E-commerce Web",
+            "tech1": "React",
+            "tech2": "Redux",
+            "tech3": "Firebase",
+            "tech4": "Stripe API"
+        },
+        {
             "url": "https://github.com/itziaroh/trivia-questions",
             "img": "./img/project-trivia.png",
             "project": "Trivia Questions",
